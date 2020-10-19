@@ -27,7 +27,7 @@ async function handleCanton(ctx) {
 }
 
 function handleStart(ctx) {
-  ctx.reply(`Hi ${ctx.from.username.toString()}! 😷\nI can send you detailed information about COVID-19 cases in your canton.\nTry /getnewcases`)
+  ctx.replyWithMarkdown(`Hello! 😷\nI can send you detailed information about COVID-19 cases in your canton.\nTry /getnewcases`)
   logUserInfo(ctx)
 }
 
